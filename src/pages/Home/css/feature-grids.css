@@ -1,0 +1,89 @@
+.feature-grid-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+
+   
+}
+.grid-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px ;
+    margin-right: 5px;
+    margin-top: 10px;
+    
+   
+}
+
+
+.grid-left h5{
+  
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 4px;
+}
+
+.grid-left h1{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 4px;
+font-size: 30px;
+}
+
+.grid-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+   
+}
+
+.grids{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.grid-2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+
+}
+
+.grid-2 h1{
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 4px;
+font-size: 30px;
+}
+
+.grid-3{
+    
+    height: 100%;
+    width: 50%;
+    margin-left: 5px;
+
+}
+.grid-4{
+   
+    height: 50%;
+    width: 100%;
+    margin-top: 10px;
+}
